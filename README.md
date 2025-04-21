@@ -1,115 +1,99 @@
-Project Overview
 
-  1. Customer Churn Prediction System is a machine learning-based web application to predict if a customer will discontinue telecom services.
-     
-  2. It uses a Random Forest Classifier trained on a telecom dataset.
+# Customer Churn Prediction System  
 
-  3. SMOTE is used to address class imbalance by oversampling the minority class.
+---
 
-  4. The app helps telecom companies identify high-risk customers and take proactive retention actions.
+## Project Overview
 
-  5. Developed using Python, scikit-learn, and Streamlit for the web interface.
+- Customer Churn Prediction System is a machine learning-based web application to predict if a customer will discontinue telecom services.
+- It uses a Random Forest Classifier trained on a telecom dataset.
+- SMOTE is used to address class imbalance by oversampling the minority class.
+- The app helps telecom companies identify high-risk customers and take proactive retention actions.
+- Developed using Python, scikit-learn, and Streamlit for the web interface.
 
-     
+---
 
-Problem Statement
+## Problem Statement
 
-  1. Customer retention is more cost-effective than acquiring new customers.
+- Customer retention is more cost-effective than acquiring new customers.
+- Predicting churn is complex due to diverse customer behavior patterns.
+- Machine learning is used to detect churn patterns from data.
+- A user-friendly interface enables real-time prediction access.
+- SMOTE balances the dataset to improve prediction fairness.
 
-  2. Predicting churn is complex due to diverse customer behavior patterns.
+---
 
-  3. Machine learning is used to detect churn patterns from data.
+## Project Goals
 
-  4. A user-friendly interface enables real-time prediction access.
+- Predict customer churn likelihood using a trained ML model.
+- Provide real-time prediction through a web interface.
+- Present interpretable results to help business users.
 
-  5. SMOTE balances the dataset to improve prediction fairness.
-     
+---
 
-Project Goals
+## Project Architecture
 
-  1. Predict customer churn likelihood using a trained ML model.
+- Dataset used is `tel_churn.csv`.
+- Data includes demographics, account details, services, and billing information.
+- Target variable is `Churn`, represented as Yes or No.
 
-  2. Provide real-time prediction through a web interface.
+- Data preprocessing includes handling missing values and encoding features.
+- SMOTE is applied to balance churn vs non-churn classes.
+- Random Forest Classifier is trained using scikit-learn.
+- Model is saved as `model_rf_smote.sav` using pickle.
 
-  3. Present interpretable results to help business users.
+- Web interface is built with Streamlit (`app.py`).
+- Interface accepts user inputs through widgets like dropdowns and number inputs.
+- Inputs include demographics, billing, services used, contract type, and payment method.
+- Inputs are one-hot encoded to match training format.
+- Model is loaded and used to predict churn (0 or 1).
+- Probability score is displayed along with prediction.
+- Logging is implemented using Python’s logging module.
+- Logs are saved in `streamlit_app.log`.
 
+---
 
-Project Architecture
+## Key Features
 
-  1. Dataset used is tel_churn.csv. Data includes demographics, account details, services, and billing information.
+- Predicts churn using a trained Random Forest model.
+- Provides real-time prediction based on user inputs.
+- Uses Streamlit for interactive and user-friendly interface.
+- Ensures data is formatted correctly for the model using one-hot encoding.
+- Logs all model activity and errors for debugging.
 
-  2. Target variable is Churn, represented as Yes or No. Data preprocessing includes handling missing values and encoding features.
+---
 
-  3. SMOTE is applied to balance churn vs non-churn classes. Random Forest Classifier is trained using scikit-learn.
+## Input Parameters
 
-  4. Model is saved as model_rf_smote.sav using pickle. Web interface is built with Streamlit (app.py).
+- Gender
+- Senior Citizen status
+- Partner
+- Dependents
+- Phone Service
+- Internet Service
+- Multiple Lines
+- Online Security
+- Online Backup
+- Device Protection
+- Tech Support
+- Streaming TV
+- Streaming Movies
+- Monthly Charges
+- Total Charges
+- Contract Type
+- Paperless Billing
+- Payment Method
+- Tenure Group
 
-  5. Interface accepts user inputs through widgets like dropdowns and number inputs. Inputs include demographics, billing, services used, contract type, and payment method.
+---
 
-  6. Inputs are one-hot encoded to match training format. Model is loaded and used to predict churn (0 or 1).
+## Model Output
 
-  7. Probability score is displayed along with prediction. Logging is implemented using Python’s logging module. Logs are saved in streamlit_app.log.
+- Churn prediction as 0 (Stay) or 1 (Churn)
+- Probability score between 0.0 and 1.0 indicating confidence
+- Example: A score of 0.85 means 85% chance of churn
 
-
-Key Features
-
-  1. Predicts churn using a trained Random Forest model.
-
-  2. Provides real-time prediction based on user inputs.
-
-  3. Uses Streamlit for interactive and user-friendly interface.
-
-  4. Ensures data is formatted correctly for the model using one-hot encoding.
-
-  5. Logs all model activity and errors for debugging.
-
-
-Input Parameters
-
-  1. Gender
-
-  2. Senior Citizen status
-
-  3. Partner
-
-  4. Dependents
-
-  5. Phone Service
-
-  6. Internet Service
-
-  7. Multiple Lines
-
-  8. Online Security
-
-  9. Online Backup
-
-  10. Device Protection
-
-  11. Tech Support
-
-  12. Streaming TV
-
-  13. Streaming Movies
-
-  14. Monthly Charges
-
-  15. Total Charges
-
-  16. Contract Type
-
-  17. Paperless Billing
-
-  18. Payment Method
-
-  19. Tenure Group
-
-
-Model Output
-
-  1. Churn prediction as 0 (Stay) or 1 (Churn)
-
-  2. Probability score between 0.0 and 1.0 indicating confidence
+---
 
 <img width="1440" alt="Image" src="https://github.com/user-attachments/assets/a10d81d0-e66a-40b0-ad40-e2f2abc88395" />
 <img width="1440" alt="Image" src="https://github.com/user-attachments/assets/1b2c9d91-2ab4-473d-bb92-a8777bda0efd" />
