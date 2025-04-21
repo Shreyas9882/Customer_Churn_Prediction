@@ -10,6 +10,8 @@ Project Overview
 
   5. Developed using Python, scikit-learn, and Streamlit for the web interface.
 
+     
+
 Problem Statement
 
   1. Customer retention is more cost-effective than acquiring new customers.
@@ -21,6 +23,7 @@ Problem Statement
   4. A user-friendly interface enables real-time prediction access.
 
   5. SMOTE balances the dataset to improve prediction fairness.
+     
 
 Project Goals
 
@@ -29,6 +32,7 @@ Project Goals
   2. Provide real-time prediction through a web interface.
 
   3. Present interpretable results to help business users.
+
 
 Project Architecture
 
@@ -46,6 +50,7 @@ Project Architecture
 
   7. Probability score is displayed along with prediction. Logging is implemented using Python’s logging module. Logs are saved in streamlit_app.log.
 
+
 Key Features
 
   1. Predicts churn using a trained Random Forest model.
@@ -57,6 +62,7 @@ Key Features
   4. Ensures data is formatted correctly for the model using one-hot encoding.
 
   5. Logs all model activity and errors for debugging.
+
 
 Input Parameters
 
@@ -97,6 +103,7 @@ Input Parameters
   18. Payment Method
 
   19. Tenure Group
+
 
 Model Output
 
