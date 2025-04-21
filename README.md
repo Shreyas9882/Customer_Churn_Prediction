@@ -1,7 +1,6 @@
 
 # Customer Churn Prediction System  
 
----
 
 ## Project Overview
 
@@ -11,7 +10,6 @@
 - The app helps telecom companies identify high-risk customers and take proactive retention actions.
 - Developed using Python, scikit-learn, and Streamlit for the web interface.
 
----
 
 ## Problem Statement
 
@@ -21,7 +19,6 @@
 - A user-friendly interface enables real-time prediction access.
 - SMOTE balances the dataset to improve prediction fairness.
 
----
 
 ## Project Goals
 
@@ -29,7 +26,6 @@
 - Provide real-time prediction through a web interface.
 - Present interpretable results to help business users.
 
----
 
 ## Project Architecture
 
@@ -51,7 +47,6 @@
 - Logging is implemented using Python’s logging module.
 - Logs are saved in `streamlit_app.log`.
 
----
 
 ## Key Features
 
@@ -61,7 +56,6 @@
 - Ensures data is formatted correctly for the model using one-hot encoding.
 - Logs all model activity and errors for debugging.
 
----
 
 ## Input Parameters
 
@@ -85,7 +79,6 @@
 - Payment Method
 - Tenure Group
 
----
 
 ## Model Output
 
@@ -93,7 +86,6 @@
 - Probability score between 0.0 and 1.0 indicating confidence
 - Example: A score of 0.85 means 85% chance of churn
 
----
 
 <img width="1440" alt="Image" src="https://github.com/user-attachments/assets/a10d81d0-e66a-40b0-ad40-e2f2abc88395" />
 <img width="1440" alt="Image" src="https://github.com/user-attachments/assets/1b2c9d91-2ab4-473d-bb92-a8777bda0efd" />
