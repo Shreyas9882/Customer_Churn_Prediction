@@ -9,8 +9,8 @@ Customer retention is a critical aspect of business growth in the telecom indust
 
 This project aims to address the problem by:
 
-  Applying machine learning techniques to detect patterns in customer behavior.
+  1. Applying machine learning techniques to detect patterns in customer behavior.
 
-  Creating a user-friendly interface for real-time predictions.
+  2. Creating a user-friendly interface for real-time predictions.
 
-  Using SMOTE to address the class imbalance problem, which is common in churn datasets.
+  3. Using SMOTE to address the class imbalance problem, which is common in churn datasets.
