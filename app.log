@@ -1,0 +1,234 @@
+2025-04-21 12:08:15,453 - INFO - Dataset loaded successfully.
+2025-04-21 12:09:01,061 - INFO - Dataset loaded successfully.
+2025-04-21 12:09:01,068 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2025-04-21 12:09:01,068 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 12:09:16,103 - INFO - Dataset loaded successfully.
+2025-04-21 12:10:09,712 - INFO - Dataset loaded successfully.
+2025-04-21 12:10:09,720 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2025-04-21 12:10:09,720 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 12:11:54,399 - INFO - Dataset loaded successfully.
+2025-04-21 12:15:29,994 - INFO - Dataset loaded successfully.
+2025-04-21 12:17:31,885 - INFO - Dataset loaded successfully.
+2025-04-21 12:18:40,114 - INFO - Dataset loaded successfully.
+2025-04-21 12:18:40,138 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-21 12:18:40,138 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 12:18:40,139 - INFO -  * Restarting with stat
+2025-04-21 12:18:40,842 - INFO - Dataset loaded successfully.
+2025-04-21 12:18:40,857 - WARNING -  * Debugger is active!
+2025-04-21 12:18:40,866 - INFO -  * Debugger PIN: 213-453-892
+2025-04-21 12:19:54,573 - INFO - 127.0.0.1 - - [21/Apr/2025 12:19:54] "GET / HTTP/1.1" 200 -
+2025-04-21 12:22:48,947 - INFO - Inputs successfully received.
+2025-04-21 12:22:48,950 - INFO - Model loaded successfully.
+2025-04-21 12:22:48,976 - INFO - Data preprocessing completed.
+2025-04-21 12:22:48,976 - ERROR - Prediction failed: 'numpy.ndarray' object has no attribute 'predict'
+2025-04-21 12:22:48,977 - INFO - 127.0.0.1 - - [21/Apr/2025 12:22:48] "POST / HTTP/1.1" 200 -
+2025-04-21 12:24:21,368 - INFO - Inputs successfully received.
+2025-04-21 12:24:21,374 - INFO - Model loaded successfully.
+2025-04-21 12:24:21,390 - INFO - Data preprocessing completed.
+2025-04-21 12:24:21,390 - ERROR - Prediction failed: 'numpy.ndarray' object has no attribute 'predict'
+2025-04-21 12:24:21,398 - INFO - 127.0.0.1 - - [21/Apr/2025 12:24:21] "POST / HTTP/1.1" 200 -
+2025-04-21 12:25:38,693 - INFO - 127.0.0.1 - - [21/Apr/2025 12:25:38] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-21 12:25:38,719 - INFO - 127.0.0.1 - - [21/Apr/2025 12:25:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-21 12:25:38,720 - INFO - 127.0.0.1 - - [21/Apr/2025 12:25:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-21 12:25:38,726 - INFO - 127.0.0.1 - - [21/Apr/2025 12:25:38] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=ZtJx00mJBuL4p1F5eZUd HTTP/1.1" 200 -
+2025-04-21 12:25:38,915 - INFO - 127.0.0.1 - - [21/Apr/2025 12:25:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-21 12:26:48,717 - INFO - 127.0.0.1 - - [21/Apr/2025 12:26:48] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-21 12:26:48,743 - INFO - 127.0.0.1 - - [21/Apr/2025 12:26:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-21 12:26:48,751 - INFO - 127.0.0.1 - - [21/Apr/2025 12:26:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-21 12:26:48,776 - INFO - 127.0.0.1 - - [21/Apr/2025 12:26:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=ZtJx00mJBuL4p1F5eZUd HTTP/1.1[0m" 304 -
+2025-04-21 12:26:48,956 - INFO - 127.0.0.1 - - [21/Apr/2025 12:26:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-21 12:26:53,725 - INFO - 127.0.0.1 - - [21/Apr/2025 12:26:53] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-21 12:26:53,748 - INFO - 127.0.0.1 - - [21/Apr/2025 12:26:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-21 12:26:53,752 - INFO - 127.0.0.1 - - [21/Apr/2025 12:26:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-21 12:26:53,763 - INFO - 127.0.0.1 - - [21/Apr/2025 12:26:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=ZtJx00mJBuL4p1F5eZUd HTTP/1.1[0m" 304 -
+2025-04-21 12:26:53,921 - INFO - 127.0.0.1 - - [21/Apr/2025 12:26:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-21 12:28:07,472 - INFO -  * Detected change in '/Users/sameekshashekhar/Desktop/Customer_Churn/app.py', reloading
+2025-04-21 12:28:07,612 - INFO -  * Restarting with stat
+2025-04-21 12:29:33,565 - INFO -  * Restarting with stat
+2025-04-21 12:30:34,327 - INFO -  * Restarting with stat
+2025-04-21 12:32:07,329 - INFO -  * Restarting with stat
+2025-04-21 12:32:08,372 - INFO - Dataset loaded successfully.
+2025-04-21 12:32:08,390 - WARNING -  * Debugger is active!
+2025-04-21 12:32:08,398 - INFO -  * Debugger PIN: 213-453-892
+2025-04-21 12:32:28,522 - INFO - Dataset loaded successfully.
+2025-04-21 12:32:37,048 - INFO - 127.0.0.1 - - [21/Apr/2025 12:32:37] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-21 12:32:37,084 - INFO - 127.0.0.1 - - [21/Apr/2025 12:32:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-21 12:32:37,085 - INFO - 127.0.0.1 - - [21/Apr/2025 12:32:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-21 12:32:37,104 - INFO - 127.0.0.1 - - [21/Apr/2025 12:32:37] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Gmq3VmeOXZE3CP128SnH HTTP/1.1" 200 -
+2025-04-21 12:32:37,276 - INFO - 127.0.0.1 - - [21/Apr/2025 12:32:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-21 12:34:22,888 - INFO -  * Detected change in '/Users/sameekshashekhar/Desktop/Customer_Churn/app.py', reloading
+2025-04-21 12:34:23,021 - INFO -  * Restarting with stat
+2025-04-21 12:34:24,013 - INFO - Dataset loaded successfully.
+2025-04-21 12:34:24,031 - WARNING -  * Debugger is active!
+2025-04-21 12:34:24,038 - INFO -  * Debugger PIN: 213-453-892
+2025-04-21 12:34:50,551 - INFO - 127.0.0.1 - - [21/Apr/2025 12:34:50] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-21 12:34:50,588 - INFO - 127.0.0.1 - - [21/Apr/2025 12:34:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-21 12:34:50,592 - INFO - 127.0.0.1 - - [21/Apr/2025 12:34:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-21 12:34:50,609 - INFO - 127.0.0.1 - - [21/Apr/2025 12:34:50] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=DfwcPoaEDPIPXbfjt1ha HTTP/1.1" 200 -
+2025-04-21 12:34:50,795 - INFO - 127.0.0.1 - - [21/Apr/2025 12:34:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-21 12:36:13,277 - INFO - 127.0.0.1 - - [21/Apr/2025 12:36:13] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-21 12:36:13,311 - INFO - 127.0.0.1 - - [21/Apr/2025 12:36:13] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-21 12:36:13,312 - INFO - 127.0.0.1 - - [21/Apr/2025 12:36:13] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-21 12:36:13,336 - INFO - 127.0.0.1 - - [21/Apr/2025 12:36:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=DfwcPoaEDPIPXbfjt1ha HTTP/1.1[0m" 304 -
+2025-04-21 12:36:13,518 - INFO - 127.0.0.1 - - [21/Apr/2025 12:36:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-21 12:38:05,520 - INFO -  * Detected change in '/Users/sameekshashekhar/Desktop/Customer_Churn/app.py', reloading
+2025-04-21 12:38:05,656 - INFO -  * Restarting with stat
+2025-04-21 12:38:06,715 - INFO - Dataset loaded successfully.
+2025-04-21 12:38:06,735 - WARNING -  * Debugger is active!
+2025-04-21 12:38:06,743 - INFO -  * Debugger PIN: 213-453-892
+2025-04-21 12:38:30,945 - INFO - 127.0.0.1 - - [21/Apr/2025 12:38:30] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-21 12:38:30,982 - INFO - 127.0.0.1 - - [21/Apr/2025 12:38:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-21 12:38:30,985 - INFO - 127.0.0.1 - - [21/Apr/2025 12:38:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-21 12:38:31,003 - INFO - 127.0.0.1 - - [21/Apr/2025 12:38:31] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=gCRBfU644EMhSAOgHUSE HTTP/1.1" 200 -
+2025-04-21 12:38:31,183 - INFO - 127.0.0.1 - - [21/Apr/2025 12:38:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-21 12:39:29,675 - INFO -  * Detected change in '/Users/sameekshashekhar/Desktop/Customer_Churn/app.py', reloading
+2025-04-21 12:39:29,814 - INFO -  * Restarting with stat
+2025-04-21 12:39:30,882 - INFO - Dataset loaded successfully.
+2025-04-21 12:39:30,899 - WARNING -  * Debugger is active!
+2025-04-21 12:39:30,907 - INFO -  * Debugger PIN: 213-453-892
+2025-04-21 12:39:48,894 - INFO - 127.0.0.1 - - [21/Apr/2025 12:39:48] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-21 12:39:48,927 - INFO - 127.0.0.1 - - [21/Apr/2025 12:39:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-21 12:39:48,928 - INFO - 127.0.0.1 - - [21/Apr/2025 12:39:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-21 12:39:48,951 - INFO - 127.0.0.1 - - [21/Apr/2025 12:39:48] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=xiUmKkYvBqg3ADeyiSY5 HTTP/1.1" 200 -
+2025-04-21 12:39:49,137 - INFO - 127.0.0.1 - - [21/Apr/2025 12:39:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-21 12:40:37,772 - INFO - 127.0.0.1 - - [21/Apr/2025 12:40:37] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-21 12:40:37,809 - INFO - 127.0.0.1 - - [21/Apr/2025 12:40:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-21 12:40:37,809 - INFO - 127.0.0.1 - - [21/Apr/2025 12:40:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-21 12:40:37,834 - INFO - 127.0.0.1 - - [21/Apr/2025 12:40:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=xiUmKkYvBqg3ADeyiSY5 HTTP/1.1[0m" 304 -
+2025-04-21 12:40:38,005 - INFO - 127.0.0.1 - - [21/Apr/2025 12:40:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-21 12:44:25,207 - INFO -  * Detected change in '/Users/sameekshashekhar/Desktop/Customer_Churn/app.py', reloading
+2025-04-21 12:44:25,347 - INFO -  * Restarting with stat
+2025-04-21 12:44:26,494 - INFO - Dataset loaded successfully.
+2025-04-21 12:44:26,495 - INFO - Model loaded successfully.
+2025-04-21 12:44:41,800 - INFO - Dataset loaded successfully.
+2025-04-21 12:44:41,801 - INFO - Model loaded successfully.
+2025-04-21 12:45:13,547 - INFO - Dataset loaded successfully.
+2025-04-21 12:45:13,548 - INFO - Model loaded successfully.
+2025-04-21 12:45:16,141 - INFO - Dataset loaded successfully.
+2025-04-21 12:45:16,142 - INFO - Model loaded successfully.
+2025-04-21 12:45:17,518 - INFO - Dataset loaded successfully.
+2025-04-21 12:45:17,519 - INFO - Model loaded successfully.
+2025-04-21 12:45:27,587 - INFO - Dataset loaded successfully.
+2025-04-21 12:45:27,588 - INFO - Model loaded successfully.
+2025-04-21 12:45:36,616 - INFO - Dataset loaded successfully.
+2025-04-21 12:45:36,617 - INFO - Model loaded successfully.
+2025-04-21 12:45:43,817 - INFO - Dataset loaded successfully.
+2025-04-21 12:45:43,818 - INFO - Model loaded successfully.
+2025-04-21 12:45:47,500 - INFO - Dataset loaded successfully.
+2025-04-21 12:45:47,500 - INFO - Model loaded successfully.
+2025-04-21 12:45:49,851 - INFO - Dataset loaded successfully.
+2025-04-21 12:45:49,852 - INFO - Model loaded successfully.
+2025-04-21 12:45:58,534 - INFO - Dataset loaded successfully.
+2025-04-21 12:45:58,535 - INFO - Model loaded successfully.
+2025-04-21 12:46:14,065 - INFO - Dataset loaded successfully.
+2025-04-21 12:46:14,065 - INFO - Model loaded successfully.
+2025-04-21 12:46:17,318 - INFO - Dataset loaded successfully.
+2025-04-21 12:46:17,320 - INFO - Model loaded successfully.
+2025-04-21 12:46:28,233 - INFO - Dataset loaded successfully.
+2025-04-21 12:46:28,234 - INFO - Model loaded successfully.
+2025-04-21 12:46:30,748 - INFO - Dataset loaded successfully.
+2025-04-21 12:46:30,749 - INFO - Model loaded successfully.
+2025-04-21 12:46:52,898 - INFO - Dataset loaded successfully.
+2025-04-21 12:46:52,900 - INFO - Model loaded successfully.
+2025-04-21 12:46:53,925 - INFO - Dataset loaded successfully.
+2025-04-21 12:46:53,926 - INFO - Model loaded successfully.
+2025-04-21 12:46:53,947 - ERROR - Prediction failed: 'numpy.ndarray' object has no attribute 'predict'
+2025-04-21 12:48:08,878 - INFO - Dataset loaded successfully.
+2025-04-21 12:48:08,878 - INFO - Model loaded successfully.
+2025-04-21 12:48:08,878 - ERROR - Loaded object is not a valid model.
+2025-04-21 13:04:03,052 - INFO - Model loaded successfully.
+2025-04-21 13:04:07,978 - INFO - Model loaded successfully.
+2025-04-21 13:04:14,933 - INFO - Model loaded successfully.
+2025-04-21 13:04:22,342 - INFO - Model loaded successfully.
+2025-04-21 13:04:29,875 - INFO - Model loaded successfully.
+2025-04-21 13:04:50,096 - INFO - Model loaded successfully.
+2025-04-21 13:04:58,675 - INFO - Model loaded successfully.
+2025-04-21 13:05:01,091 - INFO - Model loaded successfully.
+2025-04-21 13:05:10,557 - INFO - Model loaded successfully.
+2025-04-21 13:05:23,325 - INFO - Model loaded successfully.
+2025-04-21 13:05:34,076 - INFO - Model loaded successfully.
+2025-04-21 13:05:36,441 - INFO - Model loaded successfully.
+2025-04-21 13:05:39,858 - INFO - Model loaded successfully.
+2025-04-21 13:05:51,784 - INFO - Model loaded successfully.
+2025-04-21 13:05:51,912 - INFO - Model loaded successfully.
+2025-04-21 13:05:51,921 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Contract_One year
+- Contract_Two year
+- Dependents_Yes
+- DeviceProtection_No internet service
+- DeviceProtection_Yes
+- ...
+
+2025-04-21 13:14:02,442 - INFO - Model loaded successfully.
+2025-04-21 13:14:02,444 - ERROR - Error loading file: [Errno 2] No such file or directory: '/Users/sameekshashekhar/Desktop//Users/sameekshashekhar/Desktop/Customer_Churn/tel_churn.csv'
+2025-04-21 13:14:28,627 - INFO - Model loaded successfully.
+2025-04-21 13:14:44,151 - INFO - Model loaded successfully.
+2025-04-21 13:14:44,210 - ERROR - Prediction error: 'DataFrame' object has no attribute 'tenure'
+2025-04-21 13:17:12,413 - INFO - Model loaded successfully.
+2025-04-21 13:17:12,414 - ERROR - Error loading file: [Errno 2] No such file or directory: '/Users/sameekshashekhar/Desktop/tel_churn.csv'
+2025-04-21 13:17:28,143 - INFO - Model loaded successfully.
+2025-04-21 13:17:32,797 - INFO - Model loaded successfully.
+2025-04-21 13:18:52,660 - INFO - Model loaded successfully.
+2025-04-21 13:18:52,661 - ERROR - Error loading file: [Errno 2] No such file or directory: '/Users/sameekshashekhar/Desktop/tel_churn.csv'
+2025-04-21 13:19:10,048 - INFO - Model loaded successfully.
+2025-04-21 13:19:16,647 - INFO - Model loaded successfully.
+2025-04-21 13:19:16,702 - ERROR - Prediction error: 'RandomForestClassifier' object has no attribute 'get_booster'
+2025-04-21 13:21:33,928 - INFO - Model loaded successfully.
+2025-04-21 13:21:33,931 - ERROR - Error loading file: [Errno 2] No such file or directory: '/Users/sameekshashekhar/Desktop/tel_churn.csv'
+2025-04-21 13:21:55,356 - INFO - Model loaded successfully.
+2025-04-21 13:22:34,449 - INFO - Model loaded successfully.
+2025-04-21 13:22:40,092 - INFO - Model loaded successfully.
+2025-04-21 13:22:41,317 - INFO - Model loaded successfully.
+2025-04-21 13:22:44,333 - INFO - Model loaded successfully.
+2025-04-21 13:23:46,500 - INFO - Model loaded successfully.
+2025-04-21 13:23:48,169 - INFO - Model loaded successfully.
+2025-04-21 13:24:27,938 - INFO - Model loaded successfully.
+2025-04-21 13:24:44,652 - INFO - Model loaded successfully.
+2025-04-21 13:24:46,967 - INFO - Model loaded successfully.
+2025-04-21 13:24:50,767 - INFO - Model loaded successfully.
+2025-04-21 13:24:54,950 - INFO - Model loaded successfully.
+2025-04-21 13:24:58,873 - INFO - Model loaded successfully.
+2025-04-21 13:30:49,561 - INFO - Model loaded successfully.
+2025-04-21 13:30:52,813 - INFO - Model loaded successfully.
+2025-04-21 13:31:13,881 - INFO - Model loaded successfully.
+2025-04-21 13:31:23,437 - INFO - Model loaded successfully.
+2025-04-21 13:31:35,460 - INFO - Model loaded successfully.
+2025-04-21 13:31:52,461 - INFO - Model loaded successfully.
+2025-04-21 13:31:54,745 - INFO - Model loaded successfully.
+2025-04-21 13:32:07,313 - INFO - Model loaded successfully.
+2025-04-21 13:32:23,663 - INFO - Model loaded successfully.
+2025-04-21 13:32:43,030 - INFO - Model loaded successfully.
+2025-04-21 13:33:06,647 - INFO - Model loaded successfully.
+2025-04-21 13:33:08,445 - INFO - Model loaded successfully.
+2025-04-21 13:33:17,845 - INFO - Model loaded successfully.
+2025-04-21 13:33:19,728 - INFO - Model loaded successfully.
+2025-04-21 13:33:31,179 - INFO - Model loaded successfully.
+2025-04-21 13:33:42,128 - INFO - Model loaded successfully.
+2025-04-21 13:33:43,737 - INFO - Model loaded successfully.
+2025-04-21 13:34:20,227 - INFO - Model loaded successfully.
+2025-04-21 13:34:24,514 - INFO - Model loaded successfully.
+2025-04-21 13:34:34,069 - INFO - Model loaded successfully.
+2025-04-21 13:34:35,309 - INFO - Model loaded successfully.
+2025-04-21 13:35:21,764 - INFO - Model loaded successfully.
+2025-04-21 13:35:42,928 - INFO - Model loaded successfully.
+2025-04-21 13:35:53,961 - INFO - Model loaded successfully.
+2025-04-21 13:36:02,182 - INFO - Model loaded successfully.
+2025-04-21 13:36:15,928 - INFO - Model loaded successfully.
+2025-04-21 13:36:16,786 - INFO - Model loaded successfully.
+2025-04-21 13:36:45,668 - INFO - Model loaded successfully.
+2025-04-21 13:37:02,137 - INFO - Model loaded successfully.
+2025-04-21 13:37:03,142 - INFO - Model loaded successfully.
+2025-04-21 13:37:36,475 - INFO - Model loaded successfully.
+2025-04-21 13:37:38,577 - INFO - Model loaded successfully.
+2025-04-21 13:38:02,344 - INFO - Model loaded successfully.
+2025-04-21 13:38:04,526 - INFO - Model loaded successfully.
+2025-04-21 13:38:13,059 - INFO - Model loaded successfully.
+2025-04-21 13:38:28,512 - INFO - Model loaded successfully.
+2025-04-21 13:38:31,042 - INFO - Model loaded successfully.
+2025-04-21 13:38:39,059 - INFO - Model loaded successfully.
+2025-04-21 13:38:50,477 - INFO - Model loaded successfully.
+2025-04-21 13:38:51,350 - INFO - Model loaded successfully.
