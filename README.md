@@ -110,3 +110,8 @@ Model Output
   1. Churn prediction as 0 (Stay) or 1 (Churn)
 
   2. Probability score between 0.0 and 1.0 indicating confidence
+
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/a10d81d0-e66a-40b0-ad40-e2f2abc88395" />
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/1b2c9d91-2ab4-473d-bb92-a8777bda0efd" />
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/a5a53154-5280-491f-9a05-f11c4af3b7fc" />
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/396608fe-6983-4c3a-ae7e-1d4e314f57a7" />
