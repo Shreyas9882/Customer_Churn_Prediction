@@ -1,74 +1,89 @@
-# Customer_Churn_Prediction
+📊 Customer Churn Prediction System – AI-Powered Web Application
 A Streamlit-based AI web application that predicts customer churn using a trained Random Forest Classifier enhanced with SMOTE to handle class imbalance. The app enables telecom service providers to proactively identify customers likely to leave, empowering them with insights for strategic retention efforts.
 
-Problem Statement
-In the telecom industry, retaining existing customers is more cost-effective than acquiring new ones. However, identifying customers at risk of churn can be challenging due to complex and non-linear behavior patterns. This project addresses this challenge by:
+❓ Problem Statement
+In the telecom industry, retaining existing customers is more cost-effective than acquiring new ones. However, identifying customers at risk of churn can be challenging due to complex and non-linear behavior patterns.
 
-Applying machine learning techniques to detect patterns in customer data.
+This project addresses the challenge by:
 
-Building a user-friendly interface for business teams to access predictions.
+✅ Applying machine learning techniques to detect patterns in customer data.
 
-Ensuring balanced training using SMOTE to combat dataset imbalance.
+✅ Building a user-friendly interface for business teams to access predictions.
 
-Project Architecture
-Data Source:
+✅ Ensuring balanced training using SMOTE to combat dataset imbalance.
 
+🧱 Project Architecture
+📁 Data Source:
 tel_churn.csv: A structured dataset containing customer attributes such as demographics, service usage, billing information, and churn status.
 
-Model Development (done outside the app.py file):
+🧠 Model Development (done outside app.py):
+Preprocessing: Cleaning and encoding categorical features using one-hot encoding.
 
-Preprocessing: Cleaning, encoding categorical features using one-hot encoding.
-
-Balancing: Applied SMOTE (Synthetic Minority Over-sampling Technique) to handle class imbalance (more non-churn than churn).
+Balancing: Applied SMOTE (Synthetic Minority Over-sampling Technique) to address class imbalance (typically more "non-churn" than "churn").
 
 Model Training: Trained using Random Forest Classifier from scikit-learn.
 
-Serialization: The final trained model is saved as model_rf_smote.sav using Python’s pickle library.
+Serialization: Saved the final trained model as model_rf_smote.sav using Python’s pickle library.
 
-Web Interface (Streamlit - app.py):
+🌐 Web Interface (app.py using Streamlit):
+Collects real-time user inputs for relevant features like tenure, contract type, online services, etc.
 
-Collects real-time user input for all relevant features (e.g., tenure, contract type, online services).
+One-hot encodes the input to align with the model’s training schema.
 
-One-hot encodes the input to match the model’s training schema.
+Loads and invokes the model to:
 
-Loads and invokes the model to predict:
+Predict whether the customer will churn or stay.
 
-Whether the customer will churn or stay.
+Provide a confidence score (probability).
 
-The probability (confidence score) of churn.
+Displays results and logs events or errors for debugging and monitoring.
 
-Displays the result and logs any issues for debugging.
-
-Logging:
-
-Logs successful model loading and errors using Python’s logging module into a file (streamlit_app.log), making it robust and production-ready.
-
-Key Features
- ML-Powered Predictions: Uses a Random Forest model trained on balanced data for high-accuracy predictions.
-
-Real-Time Insights: Provides probability-based churn predictions with a single click.
-
-Interactive UI: Designed with Streamlit for easy use by non-technical stakeholders.
-
-Feature Alignment: One-hot encoded input ensures compatibility with the trained model.
-
-Robust Logging: Tracks and reports issues during model loading and prediction for better maintenance.
+📜 Logging:
+Logs successful model loads and errors using Python’s logging module into streamlit_app.log, making the app production-friendly and easy to debug.
 
 Input Parameters
-Users can input the following:
+Users provide values for the following categories:
 
-Demographics: Gender, Senior Citizen status, Partner, Dependents.
+Demographics:
 
-Billing Info: Monthly Charges, Total Charges.
+Gender
 
-Service Subscriptions: Internet, Phone, Streaming, Online Security, etc.
+Senior Citizen status
 
-Contract Type and Tenure Group.
+Partner
 
-Payment Method and Paperless Billing preference.
+Dependents
 
-Model Output
-Churn Label: Binary classification — 0 for staying, 1 for churning.
+Billing Information:
 
-Probability Score: A float (0.0–1.0) representing the likelihood of churn, giving transparency into model confidence.
+Monthly Charges
 
+Total Charges
+
+Service Subscriptions:
+
+Internet Service
+
+Phone Service
+
+Multiple Lines
+
+Online Security
+
+Online Backup
+
+Device Protection
+
+Tech Support
+
+Streaming TV and Movies
+
+Contract & Billing:
+
+Contract Type
+
+Paperless Billing
+
+Payment Method
+
+Tenure Group (1–12 months, 13–24 months, etc.)
