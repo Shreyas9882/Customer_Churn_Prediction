@@ -14,3 +14,80 @@ This project aims to address the problem by:
   2. Creating a user-friendly interface for real-time predictions.
 
   3. Using SMOTE to address the class imbalance problem, which is common in churn datasets.
+
+Project Goals
+
+  1. Predict the likelihood of customer churn using machine learning classification.
+
+  2. Enable real-time predictions through an interactive web application.
+
+  3. Provide business users with interpretable outputs to support retention strategies.
+
+1. Data Source
+   
+Dataset: tel_churn.csv
+
+Features: Includes customer demographics (e.g., gender, age), account information (e.g., tenure, contract), service usage (e.g., streaming, tech support), and billing data (e.g., total charges, payment method).
+
+Target Variable: Churn (binary: Yes/No)
+
+2. Model Development (Offline)
+The machine learning pipeline was implemented outside the Streamlit app (app.py) and includes the following steps:
+
+a. Data Preprocessing
+Handled missing values and outliers.
+
+Applied one-hot encoding to categorical features.
+
+Normalized or standardized numerical features if required.
+
+b. Handling Imbalance
+Applied SMOTE to oversample the minority class (churn) and balance the dataset.
+
+c. Model Training
+Algorithm used: Random Forest Classifier (from scikit-learn)
+
+Performance metrics evaluated: Accuracy, Precision, Recall, F1-Score, ROC-AUC
+
+d. Model Serialization
+The final trained model was saved using the pickle library as model_rf_smote.sav.
+
+3. Web Interface (app.py - Streamlit)
+   
+a. User Input
+Collects real-time customer data using Streamlit widgets such as dropdowns and number inputs.
+
+Inputs include:
+
+  1. Senior Citizen status
+
+  2. Monthly and Total Charges
+
+  3. Gender, Partner, Dependents
+
+  4. Internet service type
+
+  4. Use of online security, tech support, and streaming services
+
+  5. Contract type and payment method
+
+  6 Tenure group (e.g., 1–12 months, 13–24 months, etc.)
+
+b. Feature Encoding
+Transforms user input into a one-hot encoded DataFrame.
+
+Aligns input features with the structure expected by the trained model.
+
+c. Model Inference
+Loads the trained model using pickle.
+
+Predicts churn status (0 = Stay, 1 = Churn).
+
+Calculates and displays the prediction confidence score.
+
+d. Logging
+Logs model load and prediction events using Python’s logging module.
+
+Log file: streamlit_app.log
+
+
